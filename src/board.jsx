@@ -1,5 +1,6 @@
 import Square from "./Square";
 import "./App.css";
+import React from "react";
 import { useState } from "react";
 export default function Board() {
   const [Xisnext, setXisnext] = useState(true);
